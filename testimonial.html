@@ -165,51 +165,81 @@
     <!-- Page Header Start -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <h1 class="display-4 text-uppercase text-center mb-5">Our Client's Say</h1>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <img class="img-fluid ml-n4" src="img/testimonial-1.jpg" alt="">
-                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
-                    </div>
-                    <h4 class="text-uppercase mb-2">Client Name</h4>
-                    <i class="mb-2">Profession</i>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit sea sed</p>
-                </div>
-                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <img class="img-fluid ml-n4" src="img/testimonial-2.jpg" alt="">
-                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
-                    </div>
-                    <h4 class="text-uppercase mb-2">Client Name</h4>
-                    <i class="mb-2">Profession</i>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit sea sed</p>
-                </div>
-                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <img class="img-fluid ml-n4" src="img/testimonial-3.jpg" alt="">
-                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
-                    </div>
-                    <h4 class="text-uppercase mb-2">Client Name</h4>
-                    <i class="mb-2">Profession</i>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit sea sed</p>
-                </div>
-                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <img class="img-fluid ml-n4" src="img/testimonial-4.jpg" alt="">
-                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
-                    </div>
-                    <h4 class="text-uppercase mb-2">Client Name</h4>
-                    <i class="mb-2">Profession</i>
-                    <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit sea sed</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
+    <!-- Formulário Mecanico Start-->
+  
+    <center>
+      
+        <div>
+        
+        <form>
+           
+           <div class="col-md-4">
+             <label for="nome" class="form-label">Nome Completo</label>
+             <input type="text" class="form-control obrigatorio" id="nome">
+             <div id="erro-nome" class="error-text" style="display: none">Campo obrigatório!</div>
+           </div>
+   <br>
+             <p>Marca de Carro preferida?</p>
+   
+             <input type="radio" id="bmw" name="marca_carro" value="bmw" required>
+               <label for="bmw">BMW</label>
+   
+             <input type="radio" id="Mercedes-Benz" name="marca_carro" value="Mercedes-Benz" required>
+               <label for="Mercedes-Benz">Mercedes-Benz</label>
+   
+                 <input type="radio" id="audi" name="marca_carro" value="audi" required>
+               <label for="audi">Audi</label><br>
+               <input type="radio" id="Lamborghini" name="marca_carro" value="Lamborghini" required>
+               <label for="Lamborghini">Lamborghini</label>
+               <input type="radio" id="Toyota" name="marca_carro" value="Toyota" required>
+               <label for="Toyota">Toyota</label>
+   
+                   <input type="radio" id="Outro.." name="marca_carro" value="Outro.." required>
+               <label for="Outro..">Outro..</label><br>
+   
+                <label for="fname">Se escolheu Outro..<br></label><br>
+                <label for="fname">Indique aqui <br> </label>
+               <input type="text" id="fname" name="fname" value=""><br>
+   
+                 <br>
+   
+             <p>aaaa</p>
+   
+             <input type="checkbox" id="Iluminação" name="desafios" value="Iluminação">
+               <label for="Iluminação">Iluminação</label><br>
+   
+             <input type="checkbox" id="Restrições de espaço" name="desafios" value="Restrições de espaço">
+               <label for="Restrições de espaço">Restrições de espaço</label><br>
+   
+                 <input type="checkbox" id="Movimentação do artista em palco" name="desafios" value="Movimentação do artista em palco">
+               <label for="Movimentação do artista em palco">Movimentação do artista em palco</label><br>
+   
+                   <input type="checkbox" id="Outros.." name="desafios" value="Outros..">
+               <label for="Outros..">Outros..</label><br>
+               
+             <br>
+   
+             <p>Quantos anos tem de experiencia na área?</p>
+   
+             <input type="radio" id="Menos de 1 ano" name="anosexperiencia" value="Menos de 1 ano" required>
+               <label for="Menos de 1 ano">Menos de 1 ano</label><br>
+   
+                 <input type="radio" id="Entre 1 e 3 anos" name="anosexperiencia" value="Entre 1 e 3 anos" required>
+               <label for="Entre 1 e 3 anos">Entre 1 e 3 anos</label><br>
+               <input type="radio" id="mais de 3" name="anosexperiencia" value="mais de 3" required>
+               <label for="mais de 3">mais de 3</label><br>
+   
+            
+             <br>    
+   
+            <input type="submit" value="Enviar">
+   
+        
+           </form> 
+     </div>
+  </center>
+
+    <!-- Formulário Mecanico End -->
 
 
     <!-- Vendor Start -->
@@ -250,7 +280,7 @@
         <div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
             <div class="row pt-5">
                 <div class="col-lg-3 col-md-6 mb-5">
-                    <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
+                    <h4 class="text-uppercase text-light mb-4">Informações da Empresa</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-white mr-3"></i>Á vila, nº22, Serreta</p>
                     <p class="mb-2"><i class="fa fa-phone-alt text-white mr-3"></i>+365 295906778</p>
                     <p><i class="fa fa-envelope text-white mr-3"></i>serretarentacar@gmail.com</p>
